@@ -148,7 +148,7 @@
 ?>
     <?php 
   if($update){
-    echo "<div class='alert alert-success alert-dismissible fade show' role='alert'>
+    echo "<div class='alert alert-primary alert-dismissible fade show' role='alert'>
     <strong>Success!</strong> Your note has been updated successfully.
     <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
       <span aria-hidden='true'>&times;</span>
@@ -158,7 +158,7 @@
 ?>
     <?php 
   if($delete){
-    echo "<div class='alert alert-success alert-dismissible fade show' role='alert'>
+    echo "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
     <strong>Success!</strong> Your note has been deleted successfully.
     <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
       <span aria-hidden='true'>&times;</span>
